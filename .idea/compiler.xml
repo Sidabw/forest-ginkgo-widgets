@@ -2,11 +2,30 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="forest-ginkgo-widgets" />
+        <module name="widgets-phantom" />
+        <module name="widgets-msgcode" />
+        <module name="widgets-java-security" />
+        <module name="widgets-javax-mail" />
+        <module name="widgets-mq-kafka" />
+        <module name="widgets-mock" />
+        <module name="widgets-http" />
+        <module name="widgets-json" />
+        <module name="widgets-db-es" />
+        <module name="widgets-xml" />
+        <module name="widgets-charset" />
+        <module name="widgets-qrcode" />
+        <module name="widgets-db-redis" />
+        <module name="widgets-excel" />
+        <module name="widgets-quartz" />
+        <module name="widgets-db-mongo" />
+        <module name="widgets-mq-rabbit" />
+        <module name="widgets-csv" />
+        <module name="widgets-db-sqlite" />
       </profile>
     </annotationProcessing>
   </component>
