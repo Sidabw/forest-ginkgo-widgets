@@ -28,6 +28,7 @@
         <module>widgets-msgcode</module>
         <module>widgets-phantom</module>
         <module>widgets-charset</module>
+        <module>widgets-aop</module>
     </modules>
 
     <properties>

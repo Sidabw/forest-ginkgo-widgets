@@ -53,14 +53,17 @@ public class DemoDataListener implements ReadListener<DemoData> {
      */
     @Override
     public void invoke(DemoData data, AnalysisContext context) {
-        log.error("解析到一条数据:{}", JSON.toJSONString(data));
-        cachedDataList.add(data);
-        // 达到BATCH_COUNT了，需要去存储一次数据库，防止数据几万条数据在内存，容易OOM
-        if (cachedDataList.size() >= BATCH_COUNT) {
-            saveData();
-            // 存储完成清理 list
-            cachedDataList = ListUtils.newArrayListWithExpectedSize(BATCH_COUNT);
-        }
+        Integer rowIndex = context.readRowHolder().getRowIndex();
+
+        log.error("rowIndex: {}, 解析到一条数据:{}", rowIndex, JSON.toJSONString(data));
+        throw new RuntimeException("x");
+        // cachedDataList.add(data);
+        // // 达到BATCH_COUNT了，需要去存储一次数据库，防止数据几万条数据在内存，容易OOM
+        // if (cachedDataList.size() >= BATCH_COUNT) {
+        //     saveData();
+        //     // 存储完成清理 list
+        //     cachedDataList = ListUtils.newArrayListWithExpectedSize(BATCH_COUNT);
+        // }
     }
 
     /**

@@ -1,10 +1,20 @@
-    package com.brew.home.excel.easyexcel.read.read2;
+package com.brew.home.excel.easyexcel.read.read2;
+
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.Setter;
+
+import java.util.Date;
 
 /**
- * 
- *
  * @author shaogz
- * @create 2021/12/7 
  */
+@Data
 public class DemoData2 {
+
+    private String name;
+
+    private String pass;
+
 }
