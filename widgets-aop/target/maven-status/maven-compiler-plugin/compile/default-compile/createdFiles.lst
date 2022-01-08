@@ -1,0 +1,6 @@
+com/brew/home/aop/test1/App.class
+com/brew/home/aop/test2/App2.class
+com/brew/home/aop/test2/NonAuth.class
+com/brew/home/aop/test2/Aspect2.class
+com/brew/home/aop/test1/AnnoAspect.class
+com/brew/home/aop/test2/App2Main.class
