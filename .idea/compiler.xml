@@ -5,7 +5,6 @@
     <option name="delegateToJavac" value="true" />
   </component>
   <component name="CompilerConfiguration">
-    <option name="DEFAULT_COMPILER" value="ajc" />
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
@@ -26,6 +25,7 @@
         <module name="widgets-qrcode" />
         <module name="widgets-aop" />
         <module name="widgets-db-redis" />
+        <module name="widgets-servlet" />
         <module name="widgets-excel" />
         <module name="widgets-quartz" />
         <module name="widgets-db-mongo" />
