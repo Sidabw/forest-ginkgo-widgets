@@ -21,7 +21,7 @@
         <module>widgets-db-mongo</module>
         <module>widgets-db-es</module>
         <module>widgets-qrcode</module>
-        <module>widgets-mock</module>
+        <module>widgets-mockito-spring</module>
         <module>widgets-javax-mail</module>
         <module>widgets-xml</module>
         <module>widgets-excel</module>
@@ -30,6 +30,7 @@
         <module>widgets-charset</module>
         <module>widgets-aop</module>
         <module>widgets-servlet</module>
+        <module>widgets-guava</module>
     </modules>
 
     <properties>

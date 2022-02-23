@@ -12,6 +12,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.Map;
 
 /**
  * 〈一句话功能简述〉:
@@ -27,16 +28,20 @@ import java.io.IOException;
 
 //这里说的是可以/test访问 也可以/get访问。。
 //用这个就不需要配置web.xml了
-@WebServlet({"/test","/get"})
+@WebServlet({"/test","/get", "/api/record/start"})
 public class FirstServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        Map<String, String[]> parameterMap = req.getParameterMap();
+        System.out.println(parameterMap);
         resp.getWriter().write("GET SUCCESS~~~");
     }
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        Map<String, String[]> parameterMap = req.getParameterMap();
+        System.out.println(parameterMap);
         resp.getWriter().write("POST SUCCESS~~~");
     }
 }

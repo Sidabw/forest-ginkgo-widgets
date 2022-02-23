@@ -16,7 +16,7 @@
         <module name="widgets-java-security" />
         <module name="widgets-javax-mail" />
         <module name="widgets-mq-kafka" />
-        <module name="widgets-mock" />
+        <module name="widgets-guava" />
         <module name="widgets-http" />
         <module name="widgets-json" />
         <module name="widgets-db-es" />
@@ -26,6 +26,7 @@
         <module name="widgets-aop" />
         <module name="widgets-db-redis" />
         <module name="widgets-servlet" />
+        <module name="widgets-mockito-spring" />
         <module name="widgets-excel" />
         <module name="widgets-quartz" />
         <module name="widgets-db-mongo" />
@@ -34,5 +35,15 @@
         <module name="widgets-db-sqlite" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="guava" target="8" />
+      <module name="widgets-mock" target="8" />
+      <module name="widgets-mockito" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="widgets-mockito-spring" options="-parameters" />
+    </option>
   </component>
 </project>

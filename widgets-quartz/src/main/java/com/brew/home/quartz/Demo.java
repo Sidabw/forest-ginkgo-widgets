@@ -12,7 +12,7 @@ import java.util.Date;
 public class Demo {
 
     //对应日志见最下方。
-    private static final String cron = "00 51 16 18 01 ? 2021";//
+    private static final String cron = "00 38 10 14 01 ? 2022";//
 //    private static final String cron = "0/13 * * * * ?";//从现在开始，到当前时间的第十三秒执行一次，整除计算：
 //    private static final String cron = "0 * * * * ?";//从现在开始，每分钟的第0秒执行一次。
 //    private static final String cron = "0 */2 * * * ?";//同上，从现在开始，每分钟的第0秒执行一次。。。
@@ -63,11 +63,11 @@ public class Demo {
             System.out.println("当前任务是否已存在：" + b);
 
 //            Thread.sleep(60000);
-            boolean b1 = scheduler.deleteJob(JobKey.jobKey("JobName", "JobGroupName"));
-            System.out.println("当前任务被删除："+ b1);
-
-            boolean b2 = scheduler.checkExists(JobKey.jobKey("JobName", "JobGroupName"));
-            System.out.println("当前任务是否已存在：" + b2);
+//             boolean b1 = scheduler.deleteJob(JobKey.jobKey("JobName", "JobGroupName"));
+//             System.out.println("当前任务被删除："+ b1);
+//
+//             boolean b2 = scheduler.checkExists(JobKey.jobKey("JobName", "JobGroupName"));
+//             System.out.println("当前任务是否已存在：" + b2);
 
             Thread.sleep(1500000);
             // 停止调度
