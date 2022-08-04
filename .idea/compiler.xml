@@ -5,7 +5,6 @@
     <option name="delegateToJavac" value="true" />
   </component>
   <component name="CompilerConfiguration">
-    <option name="DEFAULT_COMPILER" value="ajc" />
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
@@ -14,28 +13,29 @@
         <outputRelativeToContentRoot value="true" />
         <module name="widgets-phantom" />
         <module name="widgets-msgcode" />
-        <module name="widgets-java-security" />
         <module name="widgets-javax-mail" />
-        <module name="widgets-mq-kafka" />
         <module name="widgets-guava" />
         <module name="widgets-http" />
-        <module name="widgets-json" />
-        <module name="widgets-db-es" />
         <module name="widgets-xml" />
-        <module name="widgets-charset" />
         <module name="widgets-qrcode" />
         <module name="widgets-aop" />
-        <module name="widgets-db-redis" />
         <module name="widgets-servlet" />
         <module name="widgets-mockito-spring" />
+        <module name="widgets-resilience4j" />
+        <module name="widgets-mq-rabbit" />
+        <module name="widgets-csv" />
+        <module name="widgets-java-jmh" />
+        <module name="widgets-java-security" />
+        <module name="widgets-mq-kafka" />
+        <module name="widgets-json" />
+        <module name="widgets-db-es" />
+        <module name="widgets-charset" />
+        <module name="widgets-db-redis" />
         <module name="widgets-excel" />
         <module name="widgets-quartz" />
         <module name="widgets-db-mongo" />
         <module name="widgets-excel-easyexcel" />
-        <module name="widgets-mq-rabbit" />
-        <module name="widgets-csv" />
         <module name="widgets-db-sqlite" />
-        <module name="widgets-java-jmh" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
