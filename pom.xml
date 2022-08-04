@@ -31,6 +31,8 @@
         <module>widgets-aop</module>
         <module>widgets-servlet</module>
         <module>widgets-guava</module>
+        <module>widgets-excel-easyexcel</module>
+        <module>widgets-java-jmh</module>
     </modules>
 
     <properties>

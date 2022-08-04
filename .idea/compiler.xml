@@ -5,6 +5,7 @@
     <option name="delegateToJavac" value="true" />
   </component>
   <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="ajc" />
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
@@ -30,9 +31,11 @@
         <module name="widgets-excel" />
         <module name="widgets-quartz" />
         <module name="widgets-db-mongo" />
+        <module name="widgets-excel-easyexcel" />
         <module name="widgets-mq-rabbit" />
         <module name="widgets-csv" />
         <module name="widgets-db-sqlite" />
+        <module name="widgets-java-jmh" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
