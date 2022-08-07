@@ -1,4 +1,4 @@
-package com.home.brew.bulkhead;
+package com.home.brew.p2bulkhead;
 
 import io.github.resilience4j.bulkhead.Bulkhead;
 import io.github.resilience4j.bulkhead.BulkheadConfig;

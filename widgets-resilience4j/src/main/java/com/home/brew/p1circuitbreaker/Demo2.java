@@ -1,4 +1,4 @@
-package com.home.brew.circuitbreaker;
+package com.home.brew.p1circuitbreaker;
 
 import io.github.resilience4j.circuitbreaker.CircuitBreaker;
 import io.github.resilience4j.circuitbreaker.CircuitBreakerConfig;
