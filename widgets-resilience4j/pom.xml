@@ -14,7 +14,9 @@
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
+        <resilience4jVersion>1.7.1</resilience4jVersion>
     </properties>
+
 
     <dependencies>
         <dependency>
@@ -22,30 +24,30 @@
             <artifactId>resilience4j-circuitbreaker</artifactId>
             <version>1.7.1</version>
         </dependency>
-<!--        <dependency>-->
-<!--            <groupId>io.github.resilience4j</groupId>-->
-<!--            <artifactId>resilience4j-ratelimiter</artifactId>-->
-<!--            <version>${resilience4jVersion}</version>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>io.github.resilience4j</groupId>-->
-<!--            <artifactId>resilience4j-retry</artifactId>-->
-<!--            <version>${resilience4jVersion}</version>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>io.github.resilience4j</groupId>-->
-<!--            <artifactId>resilience4j-bulkhead</artifactId>-->
-<!--            <version>${resilience4jVersion}</version>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>io.github.resilience4j</groupId>-->
-<!--            <artifactId>resilience4j-cache</artifactId>-->
-<!--            <version>${resilience4jVersion}</version>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>io.github.resilience4j</groupId>-->
-<!--            <artifactId>resilience4j-timelimiter</artifactId>-->
-<!--            <version>${resilience4jVersion}</version>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>io.github.resilience4j</groupId>
+            <artifactId>resilience4j-bulkhead</artifactId>
+            <version>1.7.1</version>
+        </dependency>
+        <!--        <dependency>-->
+        <!--            <groupId>io.github.resilience4j</groupId>-->
+        <!--            <artifactId>resilience4j-ratelimiter</artifactId>-->
+        <!--            <version>${resilience4jVersion}</version>-->
+        <!--        </dependency>-->
+        <!--        <dependency>-->
+        <!--            <groupId>io.github.resilience4j</groupId>-->
+        <!--            <artifactId>resilience4j-retry</artifactId>-->
+        <!--            <version>${resilience4jVersion}</version>-->
+        <!--        </dependency>-->
+        <!--        <dependency>-->
+        <!--            <groupId>io.github.resilience4j</groupId>-->
+        <!--            <artifactId>resilience4j-cache</artifactId>-->
+        <!--            <version>${resilience4jVersion}</version>-->
+        <!--        </dependency>-->
+        <!--        <dependency>-->
+        <!--            <groupId>io.github.resilience4j</groupId>-->
+        <!--            <artifactId>resilience4j-timelimiter</artifactId>-->
+        <!--            <version>${resilience4jVersion}</version>-->
+        <!--        </dependency>-->
     </dependencies>
 </project>
