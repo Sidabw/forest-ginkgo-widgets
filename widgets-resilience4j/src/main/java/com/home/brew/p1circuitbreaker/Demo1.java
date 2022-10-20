@@ -43,6 +43,7 @@ public class Demo1 {
         //
         CircuitBreaker circuitBreaker = circuitBreakerRegistry.circuitBreaker("name");
 
+
         //方式一
         //此时可以看到，调用失败一次【executeSupplier抛出异常】后，后续的调用断路器直接抛异常，不再调用真正的方法
         //CallNotPermittedExceptionCircuitBreaker

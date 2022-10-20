@@ -11,7 +11,6 @@
 package com.brew.home.charset;
 
 
-import org.junit.Test;
 
 import java.io.*;
 
@@ -76,9 +75,9 @@ public class Demo {
     }
 
 
-    @Test
-    public void test() {
-        String str = ".a";
-        System.out.println(str.replaceAll("\\.", "b"));
-    }
+//    @Test
+//    public void test() {
+//        String str = ".a";
+//        System.out.println(str.replaceAll("\\.", "b"));
+//    }
 }
