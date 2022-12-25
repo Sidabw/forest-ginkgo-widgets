@@ -19,6 +19,8 @@ public class Main {
         ZooKeeper zk = new ZooKeeper("192.168.31.26:2181,192.168.31.26:2182,192.168.31.26:2183", 4000, (event)->{
             System.out.println("event:::::" + event);
         });
+
+        //zk3.6版本后的特性，addWatch添加的watcher可以是永久的。
         zk.addWatch("/runoob", PERSISTENT);
         TimeUnit.SECONDS.sleep(20);
         System.out.println(zk.getState());
@@ -31,6 +33,8 @@ public class Main {
 
 //        String created = zk.create("/runoob", "0".getBytes(), ZooDefs.Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);
 //        System.out.println(created);
+
+
 
     }
 
