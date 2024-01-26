@@ -16,6 +16,7 @@ import org.quartz.impl.StdSchedulerFactory;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.HashMap;
 
 /**
  * 〈一句话功能简述〉:
@@ -31,6 +32,7 @@ public class Demo2 {
     public static void main(String[] args) throws ParseException, SchedulerException, InterruptedException {
 
         String originTimeStr = "2020-07-21 16:17:21";
+        HashMap objectObjectHashMap = new HashMap<>();
         Date parse = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").parse(originTimeStr);
         String cron = new SimpleDateFormat("ss mm HH dd MM ? yyyy").format(parse);
         System.out.println(cron);

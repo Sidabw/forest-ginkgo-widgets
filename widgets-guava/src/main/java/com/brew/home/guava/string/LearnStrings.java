@@ -25,6 +25,8 @@ public class LearnStrings {
         System.out.println(Strings.padEnd("abc", 5, 'f'));
         System.out.println(Strings.commonPrefix("aabcd123123123", "aabcd998798798"));
         System.out.println(Strings.commonSuffix("12312398798okokoko", "5666373736373736373637okokoko"));
+
+        String a = "1";
     }
 
 }
