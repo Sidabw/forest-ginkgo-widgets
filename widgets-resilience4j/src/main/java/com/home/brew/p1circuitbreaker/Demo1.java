@@ -74,11 +74,15 @@ public class Demo1 {
     static int i = 0;
     private static String doSomething() {
         //前三次失败，第四次成功
-        boolean success = i++ > 2;
-        System.out.println("real doSomething , and i'm success ?  " + success);
-        if (!success) {
-            throw new RuntimeException("xxx");
-        }
-        return "success?" + success;
+//        boolean success = i++ > 2;
+//        System.out.println("real doSomething , and i'm success ?  " + success);
+//        if (!success) {
+//            throw new RuntimeException("xxx");
+//        }
+//        return "success?" + success;
+
+
+        // all success
+        return "success...........................................";
     }
 }

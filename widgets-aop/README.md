@@ -1,7 +1,7 @@
 # AOP in aspectJ
 > ajc 即 aspectJ
 
-## 编译后织入
+## 编译时织入
 * 使用pom里的 aspectj-maven-plugin
 * 打包时，别忘了指定启动类：maven-shade-plugin
 
