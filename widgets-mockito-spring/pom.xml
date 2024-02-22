@@ -26,11 +26,6 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <optional>true</optional>
-        </dependency>
         <!-- mockito 已经在这里引进来了-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -51,10 +46,10 @@
 
 
         <!-- fastjson -->
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.alibaba</groupId>-->
+<!--            <artifactId>fastjson</artifactId>-->
+<!--        </dependency>-->
         <!-- jackson -->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
