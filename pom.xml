@@ -21,7 +21,6 @@
         <module>widgets-db-mongo</module>
         <module>widgets-db-es</module>
         <module>widgets-qrcode</module>
-        <module>widgets-mockito-spring</module>
         <module>widgets-javax-mail</module>
         <module>widgets-xml</module>
         <module>widgets-excel</module>
