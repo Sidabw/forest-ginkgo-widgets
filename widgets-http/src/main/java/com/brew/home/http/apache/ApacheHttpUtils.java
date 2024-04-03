@@ -11,6 +11,7 @@
 package com.brew.home.http.apache;
 
 import org.apache.http.HttpEntity;
+import org.apache.http.client.config.RequestConfig;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
@@ -38,8 +39,28 @@ public class ApacheHttpUtils {
 
     private static final CloseableHttpClient httpClient = HttpClients.createDefault();
 
+    /**
+     * 连接默认超时时间
+     */
+    private static final int DEFAULT_CONNECT_TIMEOUT = 5000;
+    /**
+     * 读取数据默认超时时间
+     */
+    private static final int DEFAULT_CONNECT_REQUEST_TIMEOUT = 5000;
+
+    /**
+     * socket默认超时时间
+     */
+    private static final int DEFAULT_SOCKET_TIMEOUT = 5000;
+
+
     public static String executePost(String url, Object reqBody) throws IOException {
         HttpPost httpPost = new HttpPost(url);
+        RequestConfig requestConfig = RequestConfig.custom().setConnectTimeout(DEFAULT_CONNECT_TIMEOUT)
+                .setConnectionRequestTimeout(DEFAULT_CONNECT_REQUEST_TIMEOUT)
+                .setSocketTimeout(DEFAULT_SOCKET_TIMEOUT).build();
+        httpPost.setConfig(requestConfig);
+
         ObjectMapper objectMapper = new ObjectMapper();
         StringEntity stringEntity = new StringEntity(objectMapper.writeValueAsString(reqBody), StandardCharsets.UTF_8);
 //        stringEntity.setContentEncoding("UTF-8");
