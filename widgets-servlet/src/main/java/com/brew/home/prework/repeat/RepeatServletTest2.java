@@ -17,8 +17,7 @@ import java.io.IOException;
  * 〈〉
  *
  * @author shaogz
- * @create 2021/4/27
- * @since 1.0.0
+ * @since 2021/4/27
  */
 public class RepeatServletTest2 extends HttpServlet {
 

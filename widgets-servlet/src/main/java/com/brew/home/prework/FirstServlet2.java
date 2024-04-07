@@ -15,10 +15,8 @@ import java.io.IOException;
 /**
  * 〈一句话功能简述〉:
  * 〈需要在web.xml中配置ServletName、 ServletMapping〉
- *
  * @author shaogz
- * @create 2021/4/27
- * @since 1.0.0
+ * @since 2021/4/27
  */
 public class FirstServlet2 extends HttpServlet {
 

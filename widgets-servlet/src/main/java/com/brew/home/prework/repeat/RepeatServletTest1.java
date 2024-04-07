@@ -17,10 +17,9 @@ import java.io.IOException;
  * 〈〉
  *
  * @author shaogz
- * @create 2021/4/27
- * @since 1.0.0
+ * @since 2021/4/27
  */
-    public class RepeatServletTest1 extends HttpServlet {
+public class RepeatServletTest1 extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

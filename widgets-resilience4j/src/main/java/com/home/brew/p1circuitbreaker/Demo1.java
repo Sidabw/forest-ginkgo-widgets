@@ -40,8 +40,11 @@ public class Demo1 {
 
         // 使用自定义的全局配置创建CircuitBreakerRegistry
         CircuitBreakerRegistry circuitBreakerRegistry = CircuitBreakerRegistry.of(circuitBreakerConfig);
-        //
         CircuitBreaker circuitBreaker = circuitBreakerRegistry.circuitBreaker("name");
+
+        //两个特殊状态：强制打开和禁用
+//        circuitBreaker.transitionToForcedOpenState();
+//        circuitBreaker.transitionToDisabledState();
 
 
         //方式一
