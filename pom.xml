@@ -11,7 +11,7 @@
     <modules>
         <module>widgets-quartz</module>
         <module>widgets-java-security</module>
-        <module>widgets-csv</module>
+        <module>widgets-archived/widgets-csv</module>
         <module>widgets-http</module>
         <module>widgets-json</module>
         <module>widgets-mq-kafka</module>
@@ -20,17 +20,16 @@
         <module>widgets-db-redis</module>
         <module>widgets-db-mongo</module>
         <module>widgets-db-es</module>
-        <module>widgets-qrcode</module>
-        <module>widgets-javax-mail</module>
-        <module>widgets-xml</module>
-        <module>widgets-excel</module>
-        <module>widgets-msgcode</module>
-        <module>widgets-phantom</module>
-        <module>widgets-charset</module>
+        <module>widgets-archived/widgets-qrcode</module>
+        <module>widgets-archived/widgets-javax-mail</module>
+        <module>widgets-archived/widgets-xml</module>
+        <module>widgets-archived/widgets-excel</module>
+        <module>widgets-archived/widgets-msgcode</module>
+        <module>widgets-archived/widgets-phantom</module>
         <module>widgets-aop</module>
         <module>widgets-servlet</module>
         <module>widgets-guava</module>
-        <module>widgets-excel-easyexcel</module>
+        <module>widgets-archived/widgets-excel-easyexcel</module>
         <module>widgets-java-jmh</module>
         <module>widgets-resilience4j</module>
         <module>widgets-zookeeper</module>
