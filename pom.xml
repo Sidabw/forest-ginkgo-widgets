@@ -26,10 +26,11 @@
         <module>widgets-archived/widgets-excel</module>
         <module>widgets-archived/widgets-msgcode</module>
         <module>widgets-archived/widgets-phantom</module>
+        <module>widgets-archived/widgets-excel-easyexcel</module>
         <module>widgets-aop</module>
         <module>widgets-servlet</module>
+        <module>widgets-socket-io</module>
         <module>widgets-guava</module>
-        <module>widgets-archived/widgets-excel-easyexcel</module>
         <module>widgets-java-jmh</module>
         <module>widgets-resilience4j</module>
         <module>widgets-zookeeper</module>

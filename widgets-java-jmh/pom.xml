@@ -18,6 +18,7 @@
 
     <dependencies>
         <!-- 因为 JMH 是 JDK9 自带的，如果是 JDK9 之前的版本需要加入如下依赖（目前 JMH 的最新版本为 1.23 -->
+        <!-- 20240408 实际测试jdk17下不好使呢..-->
         <dependency>
             <groupId>org.openjdk.jmh</groupId>
             <artifactId>jmh-core</artifactId>

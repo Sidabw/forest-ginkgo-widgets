@@ -1,5 +1,5 @@
 # JMH
-> 参考：https://www.zhihu.com/question/276455629/answer/1259967560
+> 参考：[LINK](https://www.zhihu.com/question/276455629/answer/1259967560)
 
 ## 第一次基础学习
 > 涉及到多线程的都没有实际操作
