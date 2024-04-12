@@ -1,4 +1,4 @@
-package com.brew.home;
+package com.brew.home.client_apache;
 
 import org.apache.zookeeper.CreateMode;
 import org.apache.zookeeper.KeeperException;
