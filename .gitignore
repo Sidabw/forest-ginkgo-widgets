@@ -90,3 +90,6 @@ widgets-qrcode/target/
 widgets-quartz/target/
 widgets-xml/target/
 
+forest-ginkgo-widgets.iml
+**/*.iml
+.idea
