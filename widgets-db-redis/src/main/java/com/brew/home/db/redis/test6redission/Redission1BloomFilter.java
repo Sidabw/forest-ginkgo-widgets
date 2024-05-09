@@ -14,7 +14,6 @@ public class Redission1BloomFilter {
     public static void main(String[] args) {
         Config config = new Config();
         config.useSingleServer().setAddress("redis://localhost:6379");
-//        config.useSingleServer().setPassword("password");
         // 相当于创建了redis的连接
         RedissonClient redisson = Redisson.create(config);
 
