@@ -4,7 +4,7 @@ package com.brew.home.db.redis.test6redission;
  * @author shaogz
  * @since 2024/5/8 11:35
  */
-public class Redission3Conn {
+public class Redisson3Conn {
 
 
     /*

@@ -9,7 +9,7 @@ import org.redisson.config.Config;
  * @author shaogz
  * @since 2024/5/7 19:32
  */
-public class Redission1BloomFilter {
+public class Redisson1BloomFilter {
 
     public static void main(String[] args) {
         Config config = new Config();

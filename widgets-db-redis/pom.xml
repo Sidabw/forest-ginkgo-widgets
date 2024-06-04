@@ -17,14 +17,14 @@
     </properties>
 
     <dependencies>
-        <!-- redis -->
+        <!-- redis clients: jedis -->
         <dependency>
             <groupId>redis.clients</groupId>
             <artifactId>jedis</artifactId>
             <version>3.0.1</version>
         </dependency>
 
-
+        <!-- redis clients: redisson -->
         <dependency>
             <groupId>org.redisson</groupId>
             <artifactId>redisson</artifactId>
