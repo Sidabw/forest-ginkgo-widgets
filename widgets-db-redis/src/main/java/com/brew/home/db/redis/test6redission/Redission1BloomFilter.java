@@ -25,6 +25,9 @@ public class Redission1BloomFilter {
 
         System.out.println(bloomFilter.contains("123456"));//false
         System.out.println(bloomFilter.contains("12345"));//true
+
+        System.out.println("---");
+        System.out.println(Long.MAX_VALUE);
     }
 
 }
