@@ -93,3 +93,4 @@ widgets-xml/target/
 forest-ginkgo-widgets.iml
 **/*.iml
 .idea
+/widgets-guava/target/

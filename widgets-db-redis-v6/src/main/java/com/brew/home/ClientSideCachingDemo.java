@@ -33,8 +33,8 @@ public class ClientSideCachingDemo {
 
         String key="user";
         while (true){
-            String value = frontend.get(key);
-            System.out.println(value);
+            System.out.println("map.get : " + map.get(key));
+            System.out.println("frontend.get : " + frontend.get(key));
             TimeUnit.SECONDS.sleep(10);
         }
     }
