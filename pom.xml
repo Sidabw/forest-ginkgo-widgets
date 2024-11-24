@@ -35,6 +35,7 @@
         <module>widgets-resilience4j</module>
         <module>widgets-zookeeper</module>
         <module>widgets-db-redis-v6</module>
+        <module>widgets-pdfbox</module>
     </modules>
 
     <properties>
