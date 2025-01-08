@@ -27,15 +27,14 @@ public class ClientSideCachingDemo {
         RedisClient client = RedisClient.create(redisURI);
         StatefulRedisConnection<String, String> connect = client.connect();
 
-        Map<String, String> map = new HashMap<>();
-        CacheFrontend<String,String> frontend= ClientSideCaching.enable(CacheAccessor.forMap(map),
+        CacheFrontend<String,String> frontend= ClientSideCaching.enable(CacheAccessor.forMap(new ConnectorMap<>()),
                 connect, TrackingArgs.Builder.enabled().noloop());
 
         String key="user";
         while (true){
-            System.out.println("map.get : " + map.get(key));
             System.out.println("frontend.get : " + frontend.get(key));
-            TimeUnit.SECONDS.sleep(10);
+            System.out.println();
+            TimeUnit.SECONDS.sleep(1);
         }
     }
 
